@@ -33,9 +33,9 @@ const VideoModal = () => {
                         </div>
                     </> :
                         <><div className=" main ratio  ratio-16x9">
-                            <iframe src='https://www.youtube.com/embed/hEnr6Ewpu_U?autoplay=1&mute=1'
+                            <iframe src='https://www.youtube-nocookie.com/embed/KI2lsdXJQ40?autoplay=1&rel=0'
                                 frameBorder='0'
-                                allow='autoplay; encrypted-media'
+                                allow='autoplay encrypted-media'
                                 allowFullScreen
                                 title='video'
                             />
