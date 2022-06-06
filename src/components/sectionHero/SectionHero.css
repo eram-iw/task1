@@ -1,0 +1,122 @@
+.section-hero {
+    padding-top: 15rem;
+    background-color: #008374;
+    position: relative;
+}
+
+.section-hero h1,
+.section-hero .h1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.section-hero .masthead {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.section-hero .masthead p {
+    color: rgba(255, 255, 255, .8);
+    font-size: 16px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.section-hero .btn {
+    background-color: #f85a40;
+    color: #fff;
+    border: 2px solid #f85a40;
+}
+
+.section-hero .btn:hover {
+    background: 0 0;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.section-hero .hero-intro {
+    position: relative;
+}
+
+.section-hero h1,
+.section-hero .h1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.section-hero .masthead p {
+    color: rgba(255, 255, 255, .8);
+    font-size: 16px;
+}
+
+.section-hero .btn {
+    background-color: #f85a40;
+    color: #fff;
+    border: 2px solid #f85a40;
+}
+
+.btn {
+    padding: 12px 30px;
+    border-radius: 4px;
+}
+
+.section-hero .persons-1 {
+    left: -300px;
+}
+
+.section-hero .persons-2 {
+    right: -300px;
+}
+
+.section-hero .persons-1,
+.section-hero .persons-2 {
+    position: absolute;
+    top: -80px;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.section-hero .box {
+    padding: 50px;
+    margin-top: 15rem;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background: #009080;
+}
+
+.feature>div:nth-of-type(1) {
+    margin-right: 30px;
+}
+
+.feature [class*=icon-] {
+    font-size: 50px;
+    color: #fff;
+}
+
+.feature h3,
+.feature .h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.feature p:last-child {
+    margin-bottom: 0;
+}
+
+.feature p {
+    color: rgba(255, 255, 255, .5);
+}
+

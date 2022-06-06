@@ -1,0 +1,27 @@
+.section {
+    padding: 7rem 0;
+}
+
+a {
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    text-decoration: none;
+    color: #f85a40;
+}
+
+.post-entry .card .meta {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 10px;
+}
+
+.post-entry .card h2, .post-entry .card .h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.post-entry .card h2 a, .post-entry .card .h2 a {
+    color: #000;
+}

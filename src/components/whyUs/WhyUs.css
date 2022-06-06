@@ -1,0 +1,33 @@
+.section {
+    padding: 7rem 0;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.feature-2 {
+    margin-bottom: 30px;
+}
+
+.feature-2 .icon {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
+    margin-right: 20px;
+}
+
+.feature-2 .icon img {
+    max-width: 100%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.feature-2 h3, .feature-2 .h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
