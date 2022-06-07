@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import './SectionHero.css'
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -15,7 +16,7 @@ const SectionHero = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 mx-auto text-center hero-intro">
-                            <Heading1 text="Let's growth your business with us" />
+                            <Heading1 className="mx-auto" text="Let's growth your business with us" />
                             <div className="masthead mb-5">
                                 <Paragraph>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</Paragraph>
                             </div>
@@ -29,9 +30,9 @@ const SectionHero = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container">
+                <div className="container cards">
                     <div className="box">
-                        <div className="row">
+                        <div className="row mx-auto">
                             <CardSecHero
                                 icon={<LayersIcon className="icon-layers" />}
                                 heading="Design"

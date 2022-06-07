@@ -91,7 +91,7 @@ const Navbar = () => {
       <nav className="site-nav ">
         <div className="container">
           <div className="site-navigation">
-            <Anchor link="" className="logo m-0">
+            <Anchor link="" className="logo m-2">
               Impact
             </Anchor>
 

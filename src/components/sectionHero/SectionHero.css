@@ -25,7 +25,7 @@
 }
 
 p {
-    margin-top: 0;
+    margin-top: 15px;
     margin-bottom: 1rem;
 }
 
@@ -33,6 +33,7 @@ p {
     background-color: #f85a40;
     color: #fff;
     border: 2px solid #f85a40;
+    padding: 14px 35px 14px 35px;
 }
 
 .section-hero .btn:hover {
@@ -49,6 +50,8 @@ p {
 .section-hero .h1 {
     color: #fff;
     font-weight: 700;
+    margin: 24px 50px 8px 5px !important;
+    font-size: 272%;
 }
 
 .section-hero .masthead p {
@@ -60,6 +63,11 @@ p {
     background-color: #f85a40;
     color: #fff;
     border: 2px solid #f85a40;
+}
+
+.container.cards {
+    /* padding: 25px 0px 0px 0px; */
+    padding-top: 30px;
 }
 
 .btn {
@@ -78,7 +86,7 @@ p {
 .section-hero .persons-1,
 .section-hero .persons-2 {
     position: absolute;
-    top: -80px;
+    top: -53px;
 }
 
 
@@ -89,7 +97,9 @@ p {
 
 
 .section-hero .box {
-    padding: 50px;
+    padding: 55px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 15rem;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
@@ -120,3 +130,20 @@ p {
     color: rgba(255, 255, 255, .5);
 }
 
+@media (min-width: 1200px) {
+    .h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .feature {
+        margin-bottom: 30px;
+    }
+    .d-lg-flex.feature {
+        margin-left: 10px;
+    }
+    .row .mx-auto .col-lg-4 {
+        max-width: 25rem;
+    }
+}

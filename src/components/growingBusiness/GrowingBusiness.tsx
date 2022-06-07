@@ -7,10 +7,15 @@ import Heading2 from "../non-atomic/Heading2";
 import Paragraph from "../non-atomic/Paragraph";
 import Anchor from "../non-atomic/Anchor";
 import List from "../non-atomic/List";
-import VideoModal from './VideoModal'
+import CloseIcon from '@mui/icons-material/Close';
 
 const GrowingBusiness = () => {
-    const [isOpen, setOpen] = useState(false)
+
+    const [videoModal, setVideoModal] = useState(false);
+
+    const showVideoModal = () => {
+        setVideoModal(!videoModal);
+    };
     return (
         <>
             <div className="section bg-white">
@@ -54,20 +59,37 @@ const GrowingBusiness = () => {
                                 <CheckIcon className="check" /><List>Aspernatur eaque quis</List>
                                 <CheckIcon className="check" /><List>Dolorem magnam quisquam? Facere</List>
                             </ul>
-                            <Paragraph className="mt-4"><a href="#" className="btn btn-primary">Learn More</a></Paragraph>
+                            <Paragraph className="mt-4"><a href="/" className="btn btn-primary">Learn More</a></Paragraph>
                         </div>
 
                         {/* for video */}
                         <div className="col-lg-7">
-                        <VideoModal/>
-                            {/* <a href="https://www.youtube.com/watch?v=KI2lsdXJQ40" className="button-play-video glightbox">
+                            <div className='button-play-video modals position-relative ' onClick={showVideoModal}>
                                 <span className="icon-play"><PlayArrowIcon className="play" style={{
                                     position: 'relative',
                                     left: '26px',
                                     bottom: '-25px'
                                 }} /></span>
-                                <img src="https://untree.co/demos/impact/images/hero-min.jpg" alt="Image" className="img-fluid" />
-                            </a> */}
+                                <img src="https://untree.co/demos/impact/images/hero-min.jpg" alt="Image" className="img-fluid" onClick={showVideoModal} />
+                            </div>
+                            {videoModal ? (
+                                <div className='video-container '>
+                                    <div className='video'>
+                                        <iframe
+                                            src='https://www.youtube.com/embed/KI2lsdXJQ40?start=1'
+                                            title='YouTube video player'
+                                            frameBorder='0'
+                                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                                            allowFullScreen></iframe>
+                                    </div>
+                                    <div
+                                        className='close-btn'
+                                        onClick={showVideoModal}>
+                                       <CloseIcon/>
+                                    </div>
+                                </div>
+                            ) : null}
+
                         </div>
                     </div>
                 </div>
